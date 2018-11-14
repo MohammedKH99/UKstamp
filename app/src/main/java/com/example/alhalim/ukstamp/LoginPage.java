@@ -18,6 +18,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class LoginPage extends AppCompatActivity {
     public DatabaseReference dataref;
+    public FirebaseAuth mAuth;
 
     public Button mLogin;
     public TextInputEditText memail2;
@@ -31,6 +32,7 @@ public class LoginPage extends AppCompatActivity {
         mpassword=(TextInputEditText)findViewById(R.id.txt22);
 
         dataref= FirebaseDatabase.getInstance().getReference().child("Users");
+        
 
         mLogin.setOnClickListener(new View.OnClickListener() {
             @Override
