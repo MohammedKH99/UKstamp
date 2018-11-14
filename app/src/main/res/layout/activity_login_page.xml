@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/a123"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txt1"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txt12"
+            android:layout_width="349dp"
+            android:layout_height="54dp"
+            android:hint="Email" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txt2"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="183dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txt22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/regbtn"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/oval_button2"
+        android:cursorVisible="false"
+        android:text="Register New Account"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:background="@drawable/oval_button"
+        android:cursorVisible="true"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:textIsSelectable="false"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        android:typeface="serif" />
+
+</RelativeLayout>

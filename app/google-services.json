@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "474588694707",
+    "firebase_url": "https://ukstamp-c7f77.firebaseio.com",
+    "project_id": "ukstamp-c7f77",
+    "storage_bucket": "ukstamp-c7f77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474588694707:android:a43ef072f215d5d5",
+        "android_client_info": {
+          "package_name": "com.example.alhalim.ukstamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474588694707-b4hfh2hc23nlptua0e1u6bt3so1ttjgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alhalim.ukstamp",
+            "certificate_hash": "314aa9677390a08a6c151bf5f56d7c12bc090a69"
+          }
+        },
+        {
+          "client_id": "474588694707-5494obklpa6mt04db5jum210capre6tk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Zm1Ti12bdCH-z2N3qlVrZnwolMcdMY8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474588694707-5494obklpa6mt04db5jum210capre6tk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
