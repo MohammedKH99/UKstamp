@@ -20,14 +20,14 @@ public class LoginPage extends AppCompatActivity {
     public DatabaseReference dataref;
 
     public Button mLogin;
-    public TextInputEditText memail;
+    public TextInputEditText memail2;
     public TextInputEditText mpassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
         mLogin=(Button)findViewById(R.id.loginbtn);
-        memail=(TextInputEditText)findViewById(R.id.txt12);
+        memail2=(TextInputEditText)findViewById(R.id.txt12);
         mpassword=(TextInputEditText)findViewById(R.id.txt22);
 
         dataref= FirebaseDatabase.getInstance().getReference().child("Users");
@@ -35,7 +35,7 @@ public class LoginPage extends AppCompatActivity {
         mLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final String email = memail.getText().toString();
+                final String email = memail2.getText().toString();
                 final String password = mpassword.getText().toString();
                 dataref.addValueEventListener(new ValueEventListener() {
                     @Override
